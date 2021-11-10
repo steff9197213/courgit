@@ -1,0 +1,11 @@
+1/git init(pour initialiser le dossier)
+
+2/git status(pour suivre l'évolution du repository)
+
+3/git add(permet d'ajouter les modifs en mémoire sur un fichier)
+
+4/git add . (permet d'ajouter les modifs en mémoire tout fichier d'un coup)
+
+5/git add index* (pour ajouter l'ensemble des fichiers qui commence par index)
+
+6/
