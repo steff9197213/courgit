@@ -8,4 +8,30 @@
 
 5/git add index* (pour ajouter l'ensemble des fichiers qui commence par index)
 
-6/
+/*******************************************/
+
+
+1) git init => permet d'initialiser (dire a git que ce repertoire est un repertoire dont on souhaite avoir l'historique des modification) un repository.
+
+2) git add nom_du_fichier => permet d'indexer ce fichier git peut maintenant suivre l'evolution des modification aporter sur le fichier.
+
+3) git status permet de voir l'etat du depot (donne des details sur les fichier qui sont indexes et les fichier que ne le sont pas encore).
+
+4) git add . (le point pour ajouter tout les fichiers du dossier);
+
+5) git add index* (pour ajouter l'ensemble des fichier qui commence par index)
+
+6) git commit -m "message du commit" => enregistre l'etat du repository a l'intant il lui donne un identifiant pour pouvoir revenir sur ce commit plus tard
+
+7) git reset --hard numero_du_commit => revenir sur le commit en question 
+
+8) git branch => lister les branches.
+
+9) git branch nom_de_la_branche => permet de creer une branche (une branche c'est une copie exaxte de la branche principale au moment de sa creation).
+
+
+10) git checkout nom_de_la_branche => basculer vers cette branche.
+
+11) git merge nom_de_la_branche => fusionne la branche nom_de_la_branche a la branche courante.
+
+12) git branch -d nom_de_la_branche pour supprimer la branche.
